@@ -1,0 +1,32 @@
+        body{
+          background-size: cover;
+          font-family: Arial;
+          contentolor: white;
+        }
+          ul {
+            margin: 0px;
+            padding: 0px;
+            list-style: none;
+            padding-left: 450px;
+          }
+          ul li{
+            float: left;
+            width: 80px;
+            height: 40px;
+            opacity: 0.8;
+            line-height: 30px;
+            text-align: center;
+            font-size: 16px; 
+          }
+          ul li a{
+            text-decoration: none;
+            color: black;
+            display: block;
+          }
+          ul li a:hover{
+            background-color: black;
+            color: white;
+          }
+          ul li ul li{
+            display: none;
+          }
